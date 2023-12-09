@@ -1,0 +1,834 @@
+Converting GML script: ${project_dir}\scripts\glr_init\glr_init.gml
+Converted builtin - line 53: view_wview[global.GLR_VIEW] -> __view_get( e__VW.WView, global.GLR_VIEW )
+Converted builtin - line 54: view_hview[global.GLR_VIEW] -> __view_get( e__VW.HView, global.GLR_VIEW )
+Converted description /// @description glr_init(quality, width, height, view)/// @param quality
+/// @param  width
+/// @param  height
+/// @param  view
+
+Converting GML script: ${project_dir}\scripts\glr_render\glr_render.gml
+Error: variable 'layer' has same name as a built-in (function, constant or variable), it must be renamed to function correctly
+Converted builtin - line 21: view_xview -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 22: view_yview -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 23: view_wview -> __view_get( e__VW.WView, 0 )
+Converted builtin - line 24: view_wview -> __view_get( e__VW.WView, 0 )
+Converted description /// @description glr_render()
+
+Converting GML script: ${project_dir}\scripts\glr_render_html5\glr_render_html5.gml
+Error: variable 'layer' has same name as a built-in (function, constant or variable), it must be renamed to function correctly
+Converted builtin - line 20: view_xview -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 21: view_yview -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 22: view_wview -> __view_get( e__VW.WView, 0 )
+Converted builtin - line 23: view_hview -> __view_get( e__VW.HView, 0 )
+Converted description /// @description glr_render()
+
+Converting GML script: ${project_dir}\scripts\glr_draw\glr_draw.gml
+Converted builtin - line 25: view_xview -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 270: view_xview -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 272: view_xview -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 272: view_xview -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 276: view_xview -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 276: view_xview -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 325: view_xview -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 327: view_xview -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 327: view_xview -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 331: view_xview -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 331: view_xview -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 26: view_yview -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 279: view_yview -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 281: view_yview -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 281: view_yview -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 285: view_yview -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 285: view_yview -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 334: view_yview -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 336: view_yview -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 336: view_yview -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 340: view_yview -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 340: view_yview -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 27: view_wview -> __view_get( e__VW.WView, 0 )
+Converted builtin - line 28: view_hview -> __view_get( e__VW.HView, 0 )
+Converted description /// @description glr_draw(x,y)/// @param x
+/// @param y
+
+Converting GML script: ${project_dir}\scripts\glr_draw_gamma\glr_draw_gamma.gml
+Converted builtin - line 25: view_xview -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 261: view_xview -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 262: view_xview -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 262: view_xview -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 266: view_xview -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 266: view_xview -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 26: view_yview -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 269: view_yview -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 270: view_yview -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 270: view_yview -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 274: view_yview -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 274: view_yview -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 27: view_wview -> __view_get( e__VW.WView, 0 )
+Converted builtin - line 28: view_hview -> __view_get( e__VW.HView, 0 )
+Converted description /// @description glr_draw_gamma(application_surface)/// @param application_surface
+
+Converting GML script: ${project_dir}\scripts\glr_clear_all\glr_clear_all.gml
+Converted description /// @description glr_clear_all()
+
+Converting GML script: ${project_dir}\scripts\glr_refresh_fullscreen\glr_refresh_fullscreen.gml
+Converted description /// @description glr_refresh_fullscreen()
+
+Converting GML script: ${project_dir}\scripts\glr_free\glr_free.gml
+Converted description /// @description glr_free()
+
+Converting GML script: ${project_dir}\scripts\glr_get_surface\glr_get_surface.gml
+Converted description /// @description glr_get_surface()
+
+Converting GML script: ${project_dir}\scripts\glr_get_vertex_count\glr_get_vertex_count.gml
+Converted description /// @description glr_get_vertex_count()
+
+Converting GML script: ${project_dir}\scripts\glr_get_quality\glr_get_quality.gml
+Converted description /// @description glr_get_quality()
+
+Converting GML script: ${project_dir}\scripts\glr_get_illumination\glr_get_illumination.gml
+Converted description /// @description glr_get_illumination(x, y)/// @param x
+/// @param  y
+
+Converting GML script: ${project_dir}\scripts\glr_get_illumination_update\glr_get_illumination_update.gml
+Converted description /// @description glr_get_illumination_update()
+
+Converting GML script: ${project_dir}\scripts\glr_get_enabled_blur\glr_get_enabled_blur.gml
+Converted description /// @description glr_get_enabled_blur()
+
+Converting GML script: ${project_dir}\scripts\glr_get_enabled_directional\glr_get_enabled_directional.gml
+Converted description /// @description glr_get_enabled_directional()
+
+Converting GML script: ${project_dir}\scripts\glr_get_enabled_fxaa\glr_get_enabled_fxaa.gml
+Converted description /// @description glr_get_enabled_fxaa()
+
+Converting GML script: ${project_dir}\scripts\glr_get_enabled_occlusion\glr_get_enabled_occlusion.gml
+Converted description /// @description glr_get_enabled_occlusion()
+
+Converting GML script: ${project_dir}\scripts\glr_enable_blur\glr_enable_blur.gml
+Converted description /// @description glr_enable_blur(enabled)/// @param enabled
+
+Converting GML script: ${project_dir}\scripts\glr_enable_directional\glr_enable_directional.gml
+Converted description /// @description glr_enable_directional(enable)/// @param enable
+
+Converting GML script: ${project_dir}\scripts\glr_enable_fxaa\glr_enable_fxaa.gml
+Converted description /// @description glr_enable_fxaa(enable)/// @param enable
+
+Converting GML script: ${project_dir}\scripts\glr_enable_occlusion\glr_enable_occlusion.gml
+Converted description /// @description glr_enable_occlusion(enable)/// @param enable
+
+Converting GML script: ${project_dir}\scripts\glr_set_ambient_color\glr_set_ambient_color.gml
+Converted description /// @description glr_set_ambient_color(color)/// @param color
+
+Converting GML script: ${project_dir}\scripts\glr_set_ambient_daytime\glr_set_ambient_daytime.gml
+Converted description /// @description glr_set_ambient_daytime(time)/// @param time
+
+Converting GML script: ${project_dir}\scripts\glr_set_ambient_daytime_colors\glr_set_ambient_daytime_colors.gml
+Converted description /// @description glr_set_ambient_daytime_colors(midnight, sunrise, noon, afternoon, evening)/// @param midnight
+/// @param  sunrise
+/// @param  noon
+/// @param  afternoon
+/// @param  evening
+
+Converting GML script: ${project_dir}\scripts\glr_set_directional_quality\glr_set_directional_quality.gml
+Converted description /// @description glr_set_directional_quality(quality)/// @param quality
+
+Converting GML script: ${project_dir}\scripts\glr_set_occlusion_intensity\glr_set_occlusion_intensity.gml
+Converted description /// @description glr_set_occlusion_intensity(intensity);/// @param intensity
+
+Converting GML script: ${project_dir}\scripts\glr_set_quality\glr_set_quality.gml
+Converted description /// @description glr_set_quality(quality)/// @param quality
+
+Converting GML script: ${project_dir}\scripts\glr_set_size\glr_set_size.gml
+Converted description /// @description glr_set_size(width, height)/// @param width
+/// @param  height
+
+Converting GML script: ${project_dir}\scripts\glr_set_view\glr_set_view.gml
+Converted builtin - line 18: view_wview[argument0] -> __view_get( e__VW.WView, argument0 )
+Converted builtin - line 19: view_hview[argument0] -> __view_get( e__VW.HView, argument0 )
+Converted description /// @description glr_set_view(view_number)/// @param view_number
+
+Converting GML script: ${project_dir}\scripts\glr_enable_background\glr_enable_background.gml
+Converted description /// @description glr_enable_background(enabled)/// @param enabled
+
+Converting GML script: ${project_dir}\scripts\glr_debug_draw\glr_debug_draw.gml
+Converted description /// @description glr_debug_draw()
+
+Converting GML script: ${project_dir}\scripts\glr_debug_is_light\glr_debug_is_light.gml
+Converted description /// @description glr_debug_is_light(light)/// @param light
+
+Converting GML script: ${project_dir}\scripts\glr_debug_is_lightsimple\glr_debug_is_lightsimple.gml
+Converted description /// @description glr_debug_is_lightsimple(light)/// @param light
+
+Converting GML script: ${project_dir}\scripts\glr_debug_is_mesh\glr_debug_is_mesh.gml
+Converted description /// @description glr_debug_is_mesh(mesh)/// @param mesh
+
+Converting GML script: ${project_dir}\scripts\glr_light_create\glr_light_create.gml
+Error: variable 'layer' has same name as a built-in (function, constant or variable), it must be renamed to function correctly
+Converted description /// @description glr_light_create(sprite, subimg, x, y, color, intensity)/// @param sprite
+/// @param  subimg
+/// @param  x
+/// @param  y
+/// @param  color
+/// @param  intensity
+
+Converting GML script: ${project_dir}\scripts\glr_light_destroy\glr_light_destroy.gml
+Converted description /// @description glr_light_destroy(light);/// @param light
+
+Converting GML script: ${project_dir}\scripts\glr_light_destroy_all\glr_light_destroy_all.gml
+Converted description /// @description glr_light_destroy_all();
+
+Converting GML script: ${project_dir}\scripts\glr_light_refresh\glr_light_refresh.gml
+Converted description /// @description glr_light_refresh(light)/// @param light
+
+Converting GML script: ${project_dir}\scripts\glr_light_toggle\glr_light_toggle.gml
+Converted description /// @description glr_light_toggle(light)/// @param light
+
+Converting GML script: ${project_dir}\scripts\glr_light_set_active\glr_light_set_active.gml
+Converted description /// @description glr_light_set_active(light, active)/// @param light
+/// @param  active
+
+Converting GML script: ${project_dir}\scripts\glr_light_set_color\glr_light_set_color.gml
+Converted description /// @description glr_light_set_color(light, color)/// @param light
+/// @param  color
+
+Converting GML script: ${project_dir}\scripts\glr_light_set_depth\glr_light_set_depth.gml
+Converted description /// @description glr_light_set_depth(light, depth)/// @param light
+/// @param  depth
+
+Converting GML script: ${project_dir}\scripts\glr_light_set_intensity\glr_light_set_intensity.gml
+Converted description /// @description glr_light_set_intensity(light, intensity)/// @param light
+/// @param  intensity
+
+Converting GML script: ${project_dir}\scripts\glr_light_set_layer\glr_light_set_layer.gml
+Error: variable 'layer' has same name as a built-in (function, constant or variable), it must be renamed to function correctly
+Converted description /// @description glr_light_set_layer(light, layer)/// @param light
+/// @param  layer
+
+Converting GML script: ${project_dir}\scripts\glr_light_set_position\glr_light_set_position.gml
+Converted description /// @description glr_light_set_position(light, x, y)/// @param light
+/// @param  x
+/// @param  y
+
+Converting GML script: ${project_dir}\scripts\glr_light_set_rotation\glr_light_set_rotation.gml
+Converted description /// @description glr_light_set_rotation(light, rotation)/// @param light
+/// @param  rotation
+
+Converting GML script: ${project_dir}\scripts\glr_light_set_scaling\glr_light_set_scaling.gml
+Converted description /// @description glr_light_set_scaling(light, xscale, yscale)/// @param light
+/// @param  xscale
+/// @param  yscale
+
+Converting GML script: ${project_dir}\scripts\glr_light_set_transform\glr_light_set_transform.gml
+Converted description /// @description glr_light_set_transform(light, x, y, xscale, yscale, rotation)/// @param light
+/// @param  x
+/// @param  y
+/// @param  xscale
+/// @param  yscale
+/// @param  rotation
+
+Converting GML script: ${project_dir}\scripts\glr_light_set_shadow_strength\glr_light_set_shadow_strength.gml
+Converted description /// @description glr_light_set_shadow_strength(light id, strength)/// @param light id
+/// @param  strength
+
+Converting GML script: ${project_dir}\scripts\glr_light_get_color\glr_light_get_color.gml
+Converted description /// @description glr_light_get_color(light)/// @param light
+
+Converting GML script: ${project_dir}\scripts\glr_light_set_sprite\glr_light_set_sprite.gml
+Converted description /// @description glr_light_set_sprite(light, sprite, subimage)/// @param light
+/// @param  sprite
+/// @param  subimage
+
+Converting GML script: ${project_dir}\scripts\glr_light_set_static\glr_light_set_static.gml
+Converted description /// @description glr_light_set_static(light, static)/// @param light
+/// @param  static
+
+Converting GML script: ${project_dir}\scripts\glr_light_set_tolerance\glr_light_set_tolerance.gml
+Converted description /// @description glr_light_set_tolerance(light, tolerance)/// @param light
+/// @param  tolerance
+
+Converting GML script: ${project_dir}\scripts\glr_light_get_active\glr_light_get_active.gml
+Converted description /// @description glr_light_get_active(light)/// @param light
+
+Converting GML script: ${project_dir}\scripts\glr_light_get_count\glr_light_get_count.gml
+Converted description /// @description glr_light_get_count();
+
+Converting GML script: ${project_dir}\scripts\glr_light_get_depth\glr_light_get_depth.gml
+Converted description /// @description glr_light_get_depth(light)/// @param light
+
+Converting GML script: ${project_dir}\scripts\glr_light_get_intensity\glr_light_get_intensity.gml
+Converted description /// @description glr_light_get_intensity(light)/// @param light
+
+Converting GML script: ${project_dir}\scripts\glr_light_get_layer\glr_light_get_layer.gml
+Error: variable 'layer' has same name as a built-in (function, constant or variable), it must be renamed to function correctly
+Converted description /// @description glr_light_get_layer(light id)/// @param light id
+
+Converting GML script: ${project_dir}\scripts\glr_light_get_shadow_strength\glr_light_get_shadow_strength.gml
+Converted description /// @description glr_light_get_shadow_strength(light)/// @param light
+
+Converting GML script: ${project_dir}\scripts\glr_light_get_sprite\glr_light_get_sprite.gml
+Converted description /// @description glr_light_get_sprite(light)/// @param light
+
+Converting GML script: ${project_dir}\scripts\glr_light_get_static\glr_light_get_static.gml
+Converted description /// @description glr_light_get_static(light)/// @param light
+
+Converting GML script: ${project_dir}\scripts\glr_light_get_subimage\glr_light_get_subimage.gml
+Converted description /// @description glr_light_get_subimage(light)/// @param light
+
+Converting GML script: ${project_dir}\scripts\glr_light_get_tolerance\glr_light_get_tolerance.gml
+Converted description /// @description glr_light_get_tolerance(light)/// @param light
+
+Converting GML script: ${project_dir}\scripts\glr_lightsimple_create\glr_lightsimple_create.gml
+Converted description /// @description glr_lightsimple_create(sprite, subimg, x, y, color, alpha, intensity)/// @param sprite
+/// @param  subimg
+/// @param  x
+/// @param  y
+/// @param  color
+/// @param  alpha
+/// @param  intensity
+
+Converting GML script: ${project_dir}\scripts\glr_lightsimple_destroy\glr_lightsimple_destroy.gml
+Converted description /// @description glr_lightsimple_destroy(light)/// @param light
+
+Converting GML script: ${project_dir}\scripts\glr_lightsimple_destroy_all\glr_lightsimple_destroy_all.gml
+Converted description /// @description glr_lightsimple_destroy_all()
+
+Converting GML script: ${project_dir}\scripts\glr_lightsimple_get_count\glr_lightsimple_get_count.gml
+Converted description /// @description glr_lightsimple_get_count();
+
+Converting GML script: ${project_dir}\scripts\glr_lightsimple_get_alpha\glr_lightsimple_get_alpha.gml
+Converted description /// @description glr_lightsimple_get_alpha(light);/// @param light
+
+Converting GML script: ${project_dir}\scripts\glr_lightsimple_get_color\glr_lightsimple_get_color.gml
+Converted description /// @description glr_lightsimple_get_color(light);/// @param light
+
+Converting GML script: ${project_dir}\scripts\glr_lightsimple_get_active\glr_lightsimple_get_active.gml
+Converted description /// @description glr_lightsimple_get_active(light);/// @param light
+
+Converting GML script: ${project_dir}\scripts\glr_lightsimple_set_active\glr_lightsimple_set_active.gml
+Converted description /// @description glr_lightsimple_set_active(light, active)/// @param light
+/// @param  active
+
+Converting GML script: ${project_dir}\scripts\glr_lightsimple_set_alpha\glr_lightsimple_set_alpha.gml
+Converted description /// @description glr_lightsimple_set_alpha(light, alpha);/// @param light
+/// @param  alpha
+
+Converting GML script: ${project_dir}\scripts\glr_lightsimple_set_color\glr_lightsimple_set_color.gml
+Converted description /// @description glr_lightsimple_set_color(light, color);/// @param light
+/// @param  color
+
+Converting GML script: ${project_dir}\scripts\glr_lightsimple_set_intensity\glr_lightsimple_set_intensity.gml
+Converted description /// @description glr_lightsimple_set_intensity(light, intensity);/// @param light
+/// @param  intensity
+
+Converting GML script: ${project_dir}\scripts\glr_lightsimple_set_position\glr_lightsimple_set_position.gml
+Converted description /// @description glr_lightsimple_set_position(light, x, y)/// @param light
+/// @param  x
+/// @param  y
+
+Converting GML script: ${project_dir}\scripts\glr_lightsimple_set_rotation\glr_lightsimple_set_rotation.gml
+Converted description /// @description glr_lightsimple_set_rotation(light, rotation)/// @param light
+/// @param  rotation
+
+Converting GML script: ${project_dir}\scripts\glr_lightsimple_set_scaling\glr_lightsimple_set_scaling.gml
+Converted description /// @description glr_lightsimple_set_scaling(light, xscale, yscale)/// @param light
+/// @param  xscale
+/// @param  yscale
+
+Converting GML script: ${project_dir}\scripts\glr_lightsimple_set_sprite\glr_lightsimple_set_sprite.gml
+Converted description /// @description glr_lightsimple_set_sprite(light, sprite, subimage)/// @param light
+/// @param  sprite
+/// @param  subimage
+
+Converting GML script: ${project_dir}\scripts\glr_mesh_create\glr_mesh_create.gml
+Error: variable 'layer' has same name as a built-in (function, constant or variable), it must be renamed to function correctly
+Converted description /// @description glr_mesh_create(x, y, static)/// @param x
+/// @param  y
+/// @param  static
+
+Converting GML script: ${project_dir}\scripts\glr_mesh_destroy\glr_mesh_destroy.gml
+Converted description /// @description glr_mesh_destroy(mesh)/// @param mesh
+
+Converting GML script: ${project_dir}\scripts\glr_mesh_destroy_all\glr_mesh_destroy_all.gml
+Converted description /// @description glr_mesh_destroy_all()
+
+Converting GML script: ${project_dir}\scripts\glr_mesh_draw\glr_mesh_draw.gml
+Converted description /// @description glr_mesh_draw(mesh id, color, alpha)/// @param mesh id
+/// @param  color
+/// @param  alpha
+
+Converting GML script: ${project_dir}\scripts\glr_mesh_update\glr_mesh_update.gml
+Converted description /// @description glr_mesh_update(mesh id)/// @param mesh id
+
+Converting GML script: ${project_dir}\scripts\glr_mesh_get_transform\glr_mesh_get_transform.gml
+Converted description /// @description glr_mesh_get_transform(mesh id)/// @param mesh id
+
+Converting GML script: ${project_dir}\scripts\glr_mesh_get_rotation\glr_mesh_get_rotation.gml
+Converted description /// @description glr_mesh_get_rotation(mesh id)/// @param mesh id
+
+Converting GML script: ${project_dir}\scripts\glr_mesh_get_scaling\glr_mesh_get_scaling.gml
+Converted description /// @description glr_mesh_get_scaling(mesh id)/// @param mesh id
+
+Converting GML script: ${project_dir}\scripts\glr_mesh_get_position\glr_mesh_get_position.gml
+Converted description /// @description glr_mesh_get_position(mesh id)/// @param mesh id
+
+Converting GML script: ${project_dir}\scripts\glr_mesh_get_bcircle\glr_mesh_get_bcircle.gml
+Converted description /// @description glr_mesh_get_bcircle(mesh id)/// @param mesh id
+
+Converting GML script: ${project_dir}\scripts\glr_mesh_get_vertex_count\glr_mesh_get_vertex_count.gml
+Converted description /// @description glr_mesh_get_vertex_count(mesh id)/// @param mesh id
+
+Converting GML script: ${project_dir}\scripts\glr_mesh_set_active\glr_mesh_set_active.gml
+Converted description /// @description glr_mesh_set_active(mesh id, active)/// @param mesh id
+/// @param  active
+
+Converting GML script: ${project_dir}\scripts\glr_mesh_set_depth\glr_mesh_set_depth.gml
+Converted description /// @description glr_mesh_set_depth(mesh, depth)/// @param mesh
+/// @param  depth
+
+Converting GML script: ${project_dir}\scripts\glr_mesh_set_depth_mask\glr_mesh_set_depth_mask.gml
+Converted description /// @description glr_mesh_set_depth_mask(mesh id, sprite, subimage)/// @param mesh id
+/// @param  sprite
+/// @param  subimage
+
+Converting GML script: ${project_dir}\scripts\glr_mesh_set_directional_shadow_length\glr_mesh_set_directional_shadow_length.gml
+Converted description /// @description glr_mesh_set_directional_shadow_length(mesh, shadow_length);/// @param mesh
+/// @param  shadow_length
+
+Converting GML script: ${project_dir}\scripts\glr_mesh_set_height\glr_mesh_set_height.gml
+Converted description /// @description glr_mesh_set_height(mesh id, height)/// @param mesh id
+/// @param  height
+
+Converting GML script: ${project_dir}\scripts\glr_mesh_set_layer\glr_mesh_set_layer.gml
+Error: variable 'layer' has same name as a built-in (function, constant or variable), it must be renamed to function correctly
+Converted description /// @description glr_mesh_set_layer(mesh id, layer)/// @param mesh id
+/// @param  layer
+
+Converting GML script: ${project_dir}\scripts\glr_mesh_set_position\glr_mesh_set_position.gml
+Converted description /// @description glr_mesh_set_position(mesh id, x, y)/// @param mesh id
+/// @param  x
+/// @param  y
+
+Converting GML script: ${project_dir}\scripts\glr_mesh_set_rotation\glr_mesh_set_rotation.gml
+Converted description /// @description glr_mesh_set_rotation(mesh id, rotation)/// @param mesh id
+/// @param  rotation
+
+Converting GML script: ${project_dir}\scripts\glr_mesh_set_scaling\glr_mesh_set_scaling.gml
+Converted description /// @description glr_mesh_set_scaling(mesh id, xscale, yscale)/// @param mesh id
+/// @param  xscale
+/// @param  yscale
+
+Converting GML script: ${project_dir}\scripts\glr_mesh_set_shadow_strength\glr_mesh_set_shadow_strength.gml
+Converted description /// @description glr_mesh_set_shadow_strength(mesh id, strength);/// @param mesh id
+/// @param  strength
+
+Converting GML script: ${project_dir}\scripts\glr_mesh_set_transform\glr_mesh_set_transform.gml
+Converted description /// @description glr_mesh_set_transform(meshid, x, y, xscale, yscale, rotation)/// @param meshid
+/// @param  x
+/// @param  y
+/// @param  xscale
+/// @param  yscale
+/// @param  rotation
+
+Converting GML script: ${project_dir}\scripts\glr_mesh_submesh_add_box\glr_mesh_submesh_add_box.gml
+Converted description /// @description glr_mesh_submesh_add_box(mesh, width, height, xoffset, yoffset);/// @param mesh
+/// @param  width
+/// @param  height
+/// @param  xoffset
+/// @param  yoffset
+
+Converting GML script: ${project_dir}\scripts\glr_mesh_submesh_add_from_tiles\glr_mesh_submesh_add_from_tiles.gml
+Converted description /// @description glr_mesh_submesh_add_from_tiles(mesh, layer, xoffset, yoffset)/// @param mesh
+/// @param  layer
+/// @param  xoffset
+/// @param  yoffset
+
+Converting GML script: ${project_dir}\scripts\glr_mesh_submesh_add_box_from_sprite\glr_mesh_submesh_add_box_from_sprite.gml
+Converted description /// @description glr_mesh_submesh_add_box_from_sprite(mesh, sprite, xoffset, yoffset);/// @param mesh
+/// @param  sprite
+/// @param  xoffset
+/// @param  yoffset
+
+Converting GML script: ${project_dir}\scripts\glr_mesh_submesh_add_list\glr_mesh_submesh_add_list.gml
+Converted description /// @description glr_mesh_submesh_add_list(mesh, vertices_ds_list, xoffset, yoffset);/// @param mesh
+/// @param  vertices_ds_list
+/// @param  xoffset
+/// @param  yoffset
+
+Converting GML script: ${project_dir}\scripts\glr_mesh_submesh_add_circle\glr_mesh_submesh_add_circle.gml
+Converted description /// @description glr_mesh_submesh_add_circle(mesh, radius, num_vertices, xoffset, yoffset);/// @param mesh
+/// @param  radius
+/// @param  num_vertices
+/// @param  xoffset
+/// @param  yoffset
+
+Converting GML script: ${project_dir}\scripts\glr_mesh_submesh_add_json\glr_mesh_submesh_add_json.gml
+Converted description /// @description glr_mesh_submesh_add_json(mesh, json_string, xoffset, yoffset);/// @param mesh
+/// @param  json_string
+/// @param  xoffset
+/// @param  yoffset
+
+Converting GML script: ${project_dir}\scripts\glr_mesh_submesh_add_path\glr_mesh_submesh_add_path.gml
+Converted description /// @description glr_mesh_submesh_add_path(mesh, path, xoffset, yoffset);/// @param mesh
+/// @param  path
+/// @param  xoffset
+/// @param  yoffset
+
+Converting GML script: ${project_dir}\scripts\glr_occlusion_create\glr_occlusion_create.gml
+Converted description /// @description glr_occlusion_create(sprite, subimage, x, y, xscale, yscale, rotation);/// @param sprite
+/// @param  subimage
+/// @param  x
+/// @param  y
+/// @param  xscale
+/// @param  yscale
+/// @param  rotation
+
+Converting GML script: ${project_dir}\scripts\glr_occlusion_add_instance\glr_occlusion_add_instance.gml
+Converted description /// @description glr_occlusion_add_instance(instance_id);/// @param instance_id
+
+Converting GML script: ${project_dir}\scripts\glr_occlusion_destroy\glr_occlusion_destroy.gml
+Converted description /// @description glr_occlusion_destroy(id);/// @param id
+
+Converting GML script: ${project_dir}\scripts\glr_occlusion_destroy_all\glr_occlusion_destroy_all.gml
+Converted description /// @description glr_occlusion_destroy_all();
+
+Converting GML script: ${project_dir}\scripts\glr_occlusion_destroy_instance\glr_occlusion_destroy_instance.gml
+Converted description /// @description glr_occlusion_destroy_instance(instance_id);/// @param instance_id
+
+Converting GML script: ${project_dir}\scripts\glr_occlusion_set_transform\glr_occlusion_set_transform.gml
+Converted description /// @description glr_occlusion_set_transform(id, x, y, xscale, yscale, rotation);/// @param id
+/// @param  x
+/// @param  y
+/// @param  xscale
+/// @param  yscale
+/// @param  rotation
+
+Converting GML script: ${project_dir}\scripts\glr_occlusion_set_sprite\glr_occlusion_set_sprite.gml
+Converted description /// @description glr_occlusion_set_sprite(id, sprite, subimage);/// @param id
+/// @param  sprite
+/// @param  subimage
+
+Converting GML script: ${project_dir}\scripts\glr_occlusion_set_active\glr_occlusion_set_active.gml
+Converted description /// @description glr_occlusion_set_active(id, active);/// @param id
+/// @param  active
+
+Converting GML script: ${project_dir}\scripts\glr_occlusion_get_active\glr_occlusion_get_active.gml
+Converted description /// @description glr_occlusion_get_active(id);/// @param id
+
+Converting GML script: ${project_dir}\scripts\glr_occlusion_get_sprite\glr_occlusion_get_sprite.gml
+Converted description /// @description glr_occlusion_get_sprite(id);/// @param id
+
+Converting GML script: ${project_dir}\scripts\glr_occlusion_get_subimage\glr_occlusion_get_subimage.gml
+Converted description /// @description glr_occlusion_get_subimage(id);/// @param id
+
+Converting GML script: ${project_dir}\scripts\glr_shadowarea_create\glr_shadowarea_create.gml
+Converted description /// @description glr_shadowarea_create(x, y, width, height, illumination)/// @param x
+/// @param  y
+/// @param  width
+/// @param  height
+/// @param  illumination
+
+Converting GML script: ${project_dir}\scripts\glr_shadowarea_destroy\glr_shadowarea_destroy.gml
+Converted description /// @description glr_shadowarea_destroy(id)/// @param id
+
+Converting GML script: ${project_dir}\scripts\glr_shadowarea_destroy_all\glr_shadowarea_destroy_all.gml
+Converted description /// @description glr_shadowarea_destroy_all()
+
+Converting GML script: ${project_dir}\scripts\glr_shadowarea_get_active\glr_shadowarea_get_active.gml
+Converted description /// @description glr_shadowarea_get_active(id)/// @param id
+
+Converting GML script: ${project_dir}\scripts\glr_shadowarea_set_active\glr_shadowarea_set_active.gml
+Converted description /// @description glr_shadowarea_set_active(id, active)/// @param id
+/// @param  active
+
+Converting GML script: ${project_dir}\scripts\glr_shadowarea_set_illumination\glr_shadowarea_set_illumination.gml
+Converted description /// @description glr_shadowarea_set_illumination(id, illumination)/// @param id
+/// @param  illumination
+
+Converting GML script: ${project_dir}\scripts\glr_shadowarea_update\glr_shadowarea_update.gml
+Converted description /// @description glr_shadowarea_update(id, width, height)/// @param id
+/// @param  width
+/// @param  height
+
+Converting GML script: ${project_dir}\scripts\glr_shadowdepth_create\glr_shadowdepth_create.gml
+Converted description /// @description glr_shadowdepth_create(sprite, subimage, x, y, zdepth, xscale, yscale, rotation)/// @param sprite
+/// @param  subimage
+/// @param  x
+/// @param  y
+/// @param  zdepth
+/// @param  xscale
+/// @param  yscale
+/// @param  rotation
+
+Converting GML script: ${project_dir}\scripts\glr_shadowdepth_destroy\glr_shadowdepth_destroy.gml
+Converted description /// @description glr_shadowdepth_destroy(id)/// @param id
+
+Converting GML script: ${project_dir}\scripts\glr_shadowdepth_destroy_all\glr_shadowdepth_destroy_all.gml
+Converted description /// @description glr_shadowdepth_destroy_all();
+
+Converting GML script: ${project_dir}\scripts\glr_shadowdepth_set_active\glr_shadowdepth_set_active.gml
+Converted description /// @description glr_shadowdepth_set_active(id, active)/// @param id
+/// @param  active
+
+Converting GML script: ${project_dir}\scripts\glr_shadowdepth_set_depth\glr_shadowdepth_set_depth.gml
+Converted description /// @description glr_shadowdepth_set_depth(id, depth)/// @param id
+/// @param  depth
+
+Converting GML script: ${project_dir}\scripts\glr_shadowdepth_set_sprite\glr_shadowdepth_set_sprite.gml
+Converted description /// @description glr_shadowdepth_set_sprite(id, sprite, subimage)/// @param id
+/// @param  sprite
+/// @param  subimage
+
+Converting GML script: ${project_dir}\scripts\glr_shadowdepth_set_transform\glr_shadowdepth_set_transform.gml
+Converted description /// @description glr_shadowdepth_set_transform(id, x, y, xscale, yscale, rotation)/// @param id
+/// @param  x
+/// @param  y
+/// @param  xscale
+/// @param  yscale
+/// @param  rotation
+
+Converting GML script: ${project_dir}\scripts\glr_shadowdepth_get_active\glr_shadowdepth_get_active.gml
+Converted description /// @description glr_shadowdepth_get_active(id)/// @param id
+
+Converting GML script: ${project_dir}\scripts\glr_shadowdepth_get_depth\glr_shadowdepth_get_depth.gml
+Converted description /// @description glr_shadowdepth_get_depth(id)/// @param id
+
+Converting GML script: ${project_dir}\scripts\glr_shadowdepth_get_sprite\glr_shadowdepth_get_sprite.gml
+Converted description /// @description glr_shadowdepth_get_sprite(id)/// @param id
+
+Converting GML script: ${project_dir}\scripts\glr_shadowdepth_get_subimage\glr_shadowdepth_get_subimage.gml
+Converted description /// @description glr_shadowdepth_get_subimage(id)/// @param id
+
+Converting GML script: ${project_dir}\scripts\glr_receiver_create\glr_receiver_create.gml
+Converted description /// @description glr_receiver_create(sprite, subimage, x, y, xscale, yscale, rotation)/// @param sprite
+/// @param  subimage
+/// @param  x
+/// @param  y
+/// @param  xscale
+/// @param  yscale
+/// @param  rotation
+
+Converting GML script: ${project_dir}\scripts\glr_receiver_destroy\glr_receiver_destroy.gml
+Converted description /// @description glr_receiver_destroy(id);/// @param id
+
+Converting GML script: ${project_dir}\scripts\glr_receiver_destroy_all\glr_receiver_destroy_all.gml
+Converted description /// @description glr_receiver_destroy_all();
+
+Converting GML script: ${project_dir}\scripts\glr_receiver_set_active\glr_receiver_set_active.gml
+Converted description /// @description glr_receiver_set_active(id, active)/// @param id
+/// @param  active
+
+Converting GML script: ${project_dir}\scripts\glr_receiver_set_sprite\glr_receiver_set_sprite.gml
+Converted description /// @description glr_receiver_set_sprite(id, sprite, subimage)/// @param id
+/// @param  sprite
+/// @param  subimage
+
+Converting GML script: ${project_dir}\scripts\glr_receiver_set_transform\glr_receiver_set_transform.gml
+Converted description /// @description glr_receiver_set_transform(id, x, y, xscale, yscale, rot)/// @param id
+/// @param  x
+/// @param  y
+/// @param  xscale
+/// @param  yscale
+/// @param  rot
+
+Converting GML script: ${project_dir}\scripts\glr_receiver_get_active\glr_receiver_get_active.gml
+Converted description /// @description glr_receiver_get_active(id)/// @param id
+
+Converting GML script: ${project_dir}\scripts\glr_shadowsprite_create\glr_shadowsprite_create.gml
+Error: variable 'layer' has same name as a built-in (function, constant or variable), it must be renamed to function correctly
+Converted description /// @description glr_shadowsprite_create(sprite, subimage, x, y, xscale, yscale, rotation, static)/// @param sprite
+/// @param  subimage
+/// @param  x
+/// @param  y
+/// @param  xscale
+/// @param  yscale
+/// @param  rotation
+/// @param  static
+
+Converting GML script: ${project_dir}\scripts\glr_shadowsprite_create_from_instance\glr_shadowsprite_create_from_instance.gml
+Error: variable 'layer' has same name as a built-in (function, constant or variable), it must be renamed to function correctly
+Converted description /// @description glr_shadowsprite_create_from_instance(static)/// @param static
+
+Converting GML script: ${project_dir}\scripts\glr_shadowsprite_update_instance\glr_shadowsprite_update_instance.gml
+Converted description /// @description glr_shadowsprite_update_instance(id)/// @param id
+
+Converting GML script: ${project_dir}\scripts\glr_shadowsprite_destroy\glr_shadowsprite_destroy.gml
+Converted description /// @description glr_shadowsprite_destroy(id)/// @param id
+
+Converting GML script: ${project_dir}\scripts\glr_shadowsprite_destroy_all\glr_shadowsprite_destroy_all.gml
+Converted description /// @description glr_shadowsprite_destroy_all();
+
+Converting GML script: ${project_dir}\scripts\glr_shadowsprite_set_active\glr_shadowsprite_set_active.gml
+Converted description /// @description glr_shadowsprite_set_active(id, active)/// @param id
+/// @param  active
+
+Converting GML script: ${project_dir}\scripts\glr_shadowsprite_set_layer\glr_shadowsprite_set_layer.gml
+Error: variable 'layer' has same name as a built-in (function, constant or variable), it must be renamed to function correctly
+Converted description /// @description glr_shadowsprite_set_layer(id, layer)/// @param id
+/// @param  layer
+
+Converting GML script: ${project_dir}\scripts\glr_shadowsprite_set_static\glr_shadowsprite_set_static.gml
+Converted description /// @description glr_shadowsprite_set_static(id, static)/// @param id
+/// @param  static
+
+Converting GML script: ${project_dir}\scripts\glr_shadowsprite_set_transform\glr_shadowsprite_set_transform.gml
+Converted description /// @description glr_shadowsprite_set_transform(id, x, y, xscale, yscale, rotation)/// @param id
+/// @param  x
+/// @param  y
+/// @param  xscale
+/// @param  yscale
+/// @param  rotation
+
+Converting GML script: ${project_dir}\scripts\glr_shadowsprite_get_active\glr_shadowsprite_get_active.gml
+Converted description /// @description glr_shadowsprite_get_active(id)/// @param id
+
+Converting GML script: ${project_dir}\scripts\glr_shadowsprite_get_layer\glr_shadowsprite_get_layer.gml
+Error: variable 'layer' has same name as a built-in (function, constant or variable), it must be renamed to function correctly
+Converted description /// @description glr_shadowsprite_get_layer(id, layer)/// @param id
+/// @param  layer
+
+Converting GML script: ${project_dir}\scripts\glr_directional_custom_create\glr_directional_custom_create.gml
+Converted description /// @description glr_directional_custom_create(sprite, subimage, sprite_shadow, subimage_shadow, x, y, zdepth, xscale, yscale, rotation)/// @param sprite
+/// @param  subimage
+/// @param  sprite_shadow
+/// @param  subimage_shadow
+/// @param  x
+/// @param  y
+/// @param  zdepth
+/// @param  xscale
+/// @param  yscale
+/// @param  rotation
+
+Converting GML script: ${project_dir}\scripts\glr_directional_custom_destroy\glr_directional_custom_destroy.gml
+Converted description /// @description glr_directional_custom_destroy(id)/// @param id
+
+Converting GML script: ${project_dir}\scripts\glr_directional_custom_destroy_all\glr_directional_custom_destroy_all.gml
+Converted description /// @description glr_directional_custom_destroy_all();
+
+Converting GML script: ${project_dir}\scripts\glr_directional_custom_set_active\glr_directional_custom_set_active.gml
+Converted description /// @description glr_directional_custom_set_active(id, active)/// @param id
+/// @param  active
+
+Converting GML script: ${project_dir}\scripts\glr_directional_custom_set_depth\glr_directional_custom_set_depth.gml
+Converted description /// @description glr_directional_custom_set_depth(id, depth)/// @param id
+/// @param  depth
+
+Converting GML script: ${project_dir}\scripts\glr_directional_custom_set_sprite\glr_directional_custom_set_sprite.gml
+Converted description /// @description glr_directional_custom_set_sprite(id, sprite, subimage)/// @param id
+/// @param  sprite
+/// @param  subimage
+
+Converting GML script: ${project_dir}\scripts\glr_directional_custom_set_shadow\glr_directional_custom_set_shadow.gml
+Converted description /// @description glr_directional_custom_set_shadow(id, sprite_shadow, subimage_shadow)/// @param id
+/// @param  sprite_shadow
+/// @param  subimage_shadow
+
+Converting GML script: ${project_dir}\scripts\glr_directional_custom_set_shadow_length\glr_directional_custom_set_shadow_length.gml
+Converted description /// @description glr_directional_custom_set_shadow_length(id, length)/// @param id
+/// @param  length
+
+Converting GML script: ${project_dir}\scripts\glr_directional_custom_set_transform\glr_directional_custom_set_transform.gml
+Converted description /// @description glr_directional_custom_set_transform(id, x, y, xscale, yscale, rotation)/// @param id
+/// @param  x
+/// @param  y
+/// @param  xscale
+/// @param  yscale
+/// @param  rotation
+
+Converting GML script: ${project_dir}\scripts\glr_directional_custom_get_active\glr_directional_custom_get_active.gml
+Converted description /// @description glr_directional_custom_get_active(id)/// @param id
+
+Converting GML script: ${project_dir}\scripts\glr_directional_custom_get_sprite\glr_directional_custom_get_sprite.gml
+Converted description /// @description glr_directional_custom_get_sprite(id)/// @param id
+
+Converting GML script: ${project_dir}\scripts\glr_directional_custom_get_sprite_shadow\glr_directional_custom_get_sprite_shadow.gml
+Converted description /// @description glr_directional_custom_get_sprite_shadow(id)/// @param id
+
+Converting GML script: ${project_dir}\scripts\glr_directional_custom_get_subimage\glr_directional_custom_get_subimage.gml
+Converted description /// @description glr_directional_custom_get_subimage(id)/// @param id
+
+Converting GML script: ${project_dir}\scripts\glr_directional_custom_get_subimage_new\glr_directional_custom_get_subimage_new.gml
+Converted description /// @description glr_directional_custom_get_subimage_shadow(id)/// @param id
+
+Font f_en_log has been converted to font family Arial (Regular) - Font has been regenerated, small inconsistencies may occur
+Font f_en_GUI has been converted to font family Bookman Old Style (Bold) - Font has been regenerated, small inconsistencies may occur
+Font f_en_BGUI has been converted to font family Bookman Old Style (Bold) - Font has been regenerated, small inconsistencies may occur
+Font glr_font_debug has been converted to font family Arial (Regular) - Font has been regenerated, small inconsistencies may occur
+Converting GML script: ${project_dir}\objects\Controller_Master\Alarm_10.gml
+Converted description /// @description setScreen
+
+Converting GML script: ${project_dir}\objects\Controller_Master\Other_4.gml
+Converted description /// @description setScreen
+
+Converting GML script: ${project_dir}\objects\Controller_level\Alarm_10.gml
+Converted description /// @description setScreen
+
+Converting GML script: ${project_dir}\objects\Controller_level\Alarm_3.gml
+Converted description /// @description combo init
+
+Converting GML script: ${project_dir}\objects\Controller_level\Other_4.gml
+Converted description /// @description setScreen
+
+Converting GML script: ${project_dir}\objects\Controller_Map\Alarm_10.gml
+Converted description /// @description setScreen
+
+Converting GML script: ${project_dir}\objects\Controller_Map\Other_4.gml
+Converted description /// @description setScreen
+
+Converting GML script: ${project_dir}\objects\o_bg_controller\Draw_0.gml
+Converted builtin - line 1: background_x[0]=x+mouse_posx -> __background_set( e__BG.X, 0, x+mouse_posx )
+Converted builtin - line 3: background_x[1]=x+mouse_posx*1.2 -> __background_set( e__BG.X, 1, x+mouse_posx*1.2 )
+Converted builtin - line 5: background_x[2]=x+mouse_posx*1.3 -> __background_set( e__BG.X, 2, x+mouse_posx*1.3 )
+Converted builtin - line 7: background_x[3]=x+mouse_posx*1.4 -> __background_set( e__BG.X, 3, x+mouse_posx*1.4 )
+Converted builtin - line 9: background_x[4]=x+mouse_posx*1.5 -> __background_set( e__BG.X, 4, x+mouse_posx*1.5 )
+Converted builtin - line 2: background_y[0]=y+mouse_posy -> __background_set( e__BG.Y, 0, y+mouse_posy )
+Converted builtin - line 4: background_y[1]=y+mouse_posy*1.2 -> __background_set( e__BG.Y, 1, y+mouse_posy*1.2 )
+Converted builtin - line 6: background_y[2]=y+mouse_posy*1.3 -> __background_set( e__BG.Y, 2, y+mouse_posy*1.3 )
+Converted builtin - line 8: background_y[3]=y+mouse_posy*1.4 -> __background_set( e__BG.Y, 3, y+mouse_posy*1.4 )
+Converted builtin - line 10: background_y[4]=y+mouse_posy*1.5 -> __background_set( e__BG.Y, 4, y+mouse_posy*1.5 )
+
+Converting GML script: ${project_dir}\objects\obj_glare_controller\Draw_0.gml
+Converted builtin - line 4: view_xview[0] -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 4: view_yview[0] -> __view_get( e__VW.YView, 0 )
+
+Converting GML script: ${project_dir}\objects\obj_glr_light_point_static\Mouse_4.gml
+Converted description /// @description glr_light_destroy(light);/// @param light
+
+Converting GML script: ${project_dir}\objects\o_ad_init\Create_0.gml
+Converted string - line 1: 'ca-app-pub-6915808698411173~4735182446' -> "ca-app-pub-6915808698411173~4735182446"
+
+macOS icon ${options_dir}\mac\icons\icon512.png written out as 32-bit
+Windows NSIS Installer Script has been set to default due to changes in GameMaker Studio 2
+Game speed set to 30
+Added compatibility script 'action/action_another_room.gml'
+Added compatibility script 'action/action_kill_object.gml'
+Added compatibility script 'background/__background_set.gml'
+Added compatibility script 'background/__background_set_internal.gml'
+Added compatibility script 'd3d/d3d_model_destroy.gml'
+Added compatibility script 'd3d/d3d_set_culling.gml'
+Added compatibility script 'd3d/d3d_set_projection_ortho.gml'
+Added compatibility script 'd3d/d3d_transform_add_rotation_z.gml'
+Added compatibility script 'd3d/d3d_transform_add_scaling.gml'
+Added compatibility script 'd3d/d3d_transform_add_translation.gml'
+Added compatibility script 'd3d/d3d_transform_set_identity.gml'
+Added compatibility script 'draw/draw_set_blend_mode.gml'
+Added compatibility script 'draw/draw_set_blend_mode_ext.gml'
+Added compatibility script 'instance/instance_create.gml'
+Added compatibility script 'object/object_get_depth.gml'
+Added compatibility script 'texture/texture_set_interpolation_ext.gml'
+Added compatibility script 'texture/texture_set_repeat.gml'
+Added compatibility script 'tile/tile_get_height.gml'
+Added compatibility script 'tile/tile_get_ids_at_depth.gml'
+Added compatibility script 'tile/tile_get_width.gml'
+Added compatibility script 'tile/tile_get_x.gml'
+Added compatibility script 'tile/tile_get_y.gml'
+Added compatibility script 'view/__view_get.gml'
+Added compatibility script 'action/__init_action.gml'
+Added compatibility script 'background/__init_background.gml'
+Added compatibility script 'd3d/__init_d3d.gml'
+Added compatibility script 'view/__init_view.gml'
+Added compatibility script '__init_global.gml'
+Added compatibility script 'background/__background_get_element.gml'
+Added compatibility script 'background/__background_get_internal.gml'
+Added compatibility script 'background/__background_set_element.gml'
+Added compatibility script 'd3d/d3d_model_clear.gml'
+Added compatibility script '__global_object_depths.gml'

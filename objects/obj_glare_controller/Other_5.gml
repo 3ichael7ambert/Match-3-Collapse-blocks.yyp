@@ -1,0 +1,3 @@
+//clear all light, shadows, etc...
+glr_clear_all();
+

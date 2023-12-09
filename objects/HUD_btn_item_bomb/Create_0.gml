@@ -1,0 +1,2 @@
+canclick=true;
+
